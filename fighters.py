@@ -30,7 +30,7 @@ class Fighter:
 
     # HEALING
     def heal(self, amount):
-        self.healh += amount
+        self.health += amount
 
     # FIGHTER IS ALIVE - CHECKING
     def alive(self):

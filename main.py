@@ -1,4 +1,4 @@
-from arenas import Arena
+from arenas import Arena, Forest, Desert
 from fighters import Fighter
 
 # MAKEING FIGHTERS
@@ -6,7 +6,7 @@ fighter1 = Fighter("Guardian", 100, 10, 15, 5)
 fighter2 = Fighter("Champion", 100, 7, 20, 6)
 
 # MAKING ARENA
-arena = Arena("None")
+arena = Desert("Desert")
 
 round_number = 1
 while fighter1.alive() and fighter2.alive():
