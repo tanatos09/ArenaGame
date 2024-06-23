@@ -34,7 +34,6 @@ class Fighter:
 fighter1 = Fighter("První", 100, 20, 15)
 fighter2 = Fighter("Druhý", 100, 25, 10)
 
-# TODO vytvořit počitadlo kol
 
 round_number = 1
 
