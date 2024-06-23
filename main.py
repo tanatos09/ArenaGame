@@ -1,4 +1,3 @@
-import random
 from arenas import Arena
 from fighters import Fighter
 
